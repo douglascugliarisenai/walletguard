@@ -1,0 +1,26 @@
+body,
+html {
+ height: 100vh;
+}
+
+.containerUsuarioPrincipal {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ background-color: #124559;
+
+ height: 100vh;
+}
+
+@media (min-width: 200px) and (max-width: 640px) {
+ .containerUsuarioPrincipal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #124559;
+
+  height: 100%;
+ }
+}

@@ -1,0 +1,22 @@
+{
+  "usuarios": [
+    {
+      "id": "d4b6",
+      "nome": "Douglas",
+      "sexo": "Masculino",
+      "cpf": "38734315993",
+      "nascimento": "1988-01-11",
+      "email": "satdoug_@hotmail.com",
+      "senha": "12345",
+      "confirmaSenha": "12345",
+      "cep": "88111120",
+      "logradouro": "Rua Pedro Bunn",
+      "municipio": "São José",
+      "estado": "SC",
+      "numero": "1516",
+      "complemento": "",
+      "isOnline": true
+    }
+  ],
+  "despesas": []
+}

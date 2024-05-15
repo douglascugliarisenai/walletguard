@@ -1,0 +1,189 @@
+.containerCadastroDespesa {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ width: 100vw;
+ background-color: #124559;
+ color: #eff6e0;
+ margin-top: 50px;
+}
+
+.logoCadastroDespesa {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.cadastroFormDespesa .logoCadastroUsuario img {
+ width: 150px;
+ height: 150px;
+}
+
+.containerCadastroDespesa .cadastroFormDespesa {
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+}
+
+.cadastroFormDespesa form {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ height: 400px;
+ width: 500px;
+ gap: 30px;
+ background-color: #eff6e0;
+ border-radius: 15px;
+}
+
+.cadastroFormDespesa img {
+ width: 100px;
+ height: 100px;
+ margin-top: 30px;
+}
+
+.descricao {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ gap: 30px 30px;
+ width: 30rem;
+}
+
+.descricao div {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+ height: 2rem;
+}
+
+.descricao input {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+ height: 0;
+}
+
+.dadosComplementares {
+ display: grid;
+ justify-content: center;
+ align-items: center;
+ grid-template-columns: 1fr 1fr;
+ grid-template-rows: 1fr 1fr;
+ gap: 30px 30px;
+ width: 30rem;
+}
+
+.dadosComplementares div {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+ height: 2rem;
+}
+
+.dadosComplementares input {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+ height: 0;
+}
+
+.containerButtonCadastroDespesa {
+ display: flex;
+ height: 100px;
+ flex-direction: column;
+ margin-top: 30px;
+ gap: 20px;
+}
+
+.containerButtonCadastroDespesa a {
+ text-decoration: none;
+}
+
+.containerButtonCadastroDespesa button {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+
+.containerButtonCadastroDespesa .buttonCadastrar {
+ background-color: #eff6e0;
+ color: #124559;
+ font-weight: bold;
+}
+
+.containerButtonCadastroDespesa .buttonCadastrar:hover {
+ background-color: #124559;
+ color: #eff6e0;
+ font-weight: bold;
+}
+
+@media (min-width: 200px) and (max-width: 640px) {
+ .cadastroFormDespesa form {
+  width: 17rem;
+  height: 100%;
+  background-color: white;
+  border-radius: 15px;
+  margin-top: 80px;
+ }
+
+ .containerCadastroDespesa .descricao {
+  width: 15rem;
+ }
+
+ .containerCadastroDespesa .dadosComplementares {
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
+ }
+
+ .containerButtonCadastroDespesa {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+ }
+}
+
+@media (max-width: 1024px) {
+ .cadastroFormDespesa {
+  width: 40rem;
+  height: 100%;
+ }
+
+ .cadastroFormDespesa form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  background-color: white;
+  border-radius: 15px;
+ }
+
+ .descricao div {
+  width: 100%;
+ }
+
+ .containerButtonCadastroDespesa {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ }
+
+ .containerButtonCadastroDespesa button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+ }
+}

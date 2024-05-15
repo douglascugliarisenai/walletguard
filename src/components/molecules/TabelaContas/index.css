@@ -1,0 +1,8 @@
+.containerTabelaContas {
+ display: flex;
+ align-items: center;
+ margin-top: 55px;
+ flex-direction: column;
+ height: 100vh;
+ margin-top: 50px;
+}

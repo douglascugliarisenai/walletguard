@@ -1,0 +1,19 @@
+.containerPrincipal {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+
+ height: 60rem;
+ width: 100vw;
+ background-color: #eff6e0;
+}
+
+.containerPrincipal .titulo {
+ margin-bottom: 50px;
+ margin-top: 50px;
+ font-size: 35px;
+ font-weight: bold;
+ text-align: center;
+ color: #124559;
+ text-transform: uppercase;
+}
