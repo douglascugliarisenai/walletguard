@@ -1,10 +1,10 @@
-# Contribuindo para o ExerciseOpenAir
+# Contribuindo para o Walletguard
 
-Estamos muito animados que você está interessado em contribuir para o ExerciseOpenAir! Se você quer contribuir com código, documentação ou ideias, por favor, siga estas diretrizes.
+Estamos muito animados que você está interessado em contribuir para o Walletguard! Se você quer contribuir com código, documentação ou ideias, por favor, siga estas diretrizes.
 
 ## Como Contribuir
 
-Para contribuir com o ExerciseOpenAir, siga estes passos:
+Para contribuir com o Walletguard, siga estes passos:
 
 1. _Fork_ o repositório.
 2. _Clone_ o fork para sua máquina local.
@@ -19,7 +19,7 @@ Utilize a aba 'Issues' para relatar bugs.
 
 ## Sugestões
 
-Adoramos receber sugestões! Se você tem uma sugestão para melhorar o ExerciseOpenAir, por favor, abra uma issue com o título e a descrição clara da sua sugestão.
+Adoramos receber sugestões! Se você tem uma sugestão para melhorar o Walletguard, por favor, abra uma issue com o título e a descrição clara da sua sugestão.
 
 ## Pull Request Processo
 
@@ -34,4 +34,4 @@ Se você tiver alguma dúvida, por favor, envie um e-mail para douglas.cugliari@
 Agradecemos antecipadamente por qualquer contribuição, e esperamos ver suas ideias e criatividade em ação!
 
 Atenciosamente,
-Equipe ExerciseOpenAir
+Equipe Walletguard
