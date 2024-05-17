@@ -44,7 +44,7 @@
  margin-top: 30px;
 }
 
-.descricao {
+.gridDescricao {
  display: flex;
  justify-content: center;
  align-items: center;
@@ -53,7 +53,7 @@
  width: 30rem;
 }
 
-.descricao div {
+.gridDescricao div {
  display: flex;
  justify-content: center;
  align-items: center;
@@ -61,7 +61,7 @@
  height: 2rem;
 }
 
-.descricao input {
+.gridDescricao input {
  display: flex;
  justify-content: center;
  align-items: center;
@@ -135,7 +135,7 @@
   margin-top: 80px;
  }
 
- .containerCadastroDespesa .descricao {
+ .containerCadastroDespesa .gridDescricao {
   width: 15rem;
  }
 
@@ -168,7 +168,7 @@
   border-radius: 15px;
  }
 
- .descricao div {
+ .gridDescricao div {
   width: 100%;
  }
 
