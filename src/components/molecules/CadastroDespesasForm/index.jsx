@@ -42,7 +42,7 @@ function CadastroUsuarioForm() {
       <Grid className="logoCadastroDespesa">
        <img src="/assets/Logo-azul.png" alt="Logo Wallet" />
       </Grid>
-      <Grid className="descricao" sx={{ flexDirection: "column" }}>
+      <Grid className="gridDescricao" sx={{ flexDirection: "column" }}>
        <TextField
         type="text"
         variant="outlined"
@@ -50,7 +50,7 @@ function CadastroUsuarioForm() {
         error={!!errors.descricao}
         helperText={errors.descricao?.message}
         sx={{ height: "1rem" }}
-        {...register("nome", {
+        {...register("descricao", {
          required: "Este campo é obrigatório.",
          maxLength: {
           value: 50,
@@ -86,6 +86,9 @@ function CadastroUsuarioForm() {
        </FormControl>
 
        <CurrencyInput
+        placeholder="Valor"
+        error={!!errors.valor}
+        helperText={errors.valor?.message}
         {...register("valor", {
          required: "Este campo é obrigatório.",
          maxLength: {
